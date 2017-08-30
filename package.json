@@ -1,0 +1,20 @@
+{
+  "name": "headless-examples",
+  "version": "1.0.0",
+  "description": "Examples to support the MDN resource covering Firefox headless mode — see https://developer.mozilla.org/en-US/Firefox/Headless_mode",
+  "main": "selenium-test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdn/headless-examples.git"
+  },
+  "keywords": [],
+  "author": "Mozilla",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/mdn/headless-examples/issues"
+  },
+  "homepage": "https://github.com/mdn/headless-examples#readme"
+}
