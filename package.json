@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mdn/headless-examples/issues"
   },
-  "homepage": "https://github.com/mdn/headless-examples#readme"
+  "homepage": "https://github.com/mdn/headless-examples#readme",
+  "dependencies": {
+    "selenium-webdriver": "^3.5.0"
+  }
 }
