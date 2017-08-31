@@ -4,11 +4,12 @@ var webdriver = require('selenium-webdriver'),
 
 var firefox = require('selenium-webdriver/firefox');
 
-process.env.MOZ_HEADLESS = "1";
+var binary = new firefox.Binary(firefox.Channel.NIGHTLY);
+binary.addArguments("-headless");
 
 var driver = new webdriver.Builder()
     .forBrowser('firefox')
-    .setFirefoxOptions(new firefox.Options().setBinary(firefox.Channel.NIGHTLY))
+    .setFirefoxOptions(new firefox.Options().setBinary(binary))
     .build();
 
 
