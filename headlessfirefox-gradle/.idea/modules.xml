@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/headlessfirefox.iml" filepath="$PROJECT_DIR$/.idea/modules/headlessfirefox.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/headlessfirefox_main.iml" filepath="$PROJECT_DIR$/.idea/modules/headlessfirefox_main.iml" group="headlessfirefox" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/headlessfirefox_test.iml" filepath="$PROJECT_DIR$/.idea/modules/headlessfirefox_test.iml" group="headlessfirefox" />
+    </modules>
+  </component>
+</project>

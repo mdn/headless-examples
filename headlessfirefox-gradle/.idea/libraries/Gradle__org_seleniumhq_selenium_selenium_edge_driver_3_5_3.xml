@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.seleniumhq.selenium:selenium-edge-driver:3.5.3">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/3.5.3/abd2b24d3785251cb725bf26bcf9a1e3aac0e443/selenium-edge-driver-3.5.3.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.seleniumhq.selenium/selenium-edge-driver/3.5.3/7a3a0c1e58879e07aef2c16525938371284e69c5/selenium-edge-driver-3.5.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
