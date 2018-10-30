@@ -4,14 +4,13 @@ var webdriver = require('selenium-webdriver'),
 
 var firefox = require('selenium-webdriver/firefox');
 
-var binary = new firefox.Binary(firefox.Channel.NIGHTLY);
-binary.addArguments("-headless");
+var options = new firefox.Options();
+options.addArguments("-headless");
 
 var driver = new webdriver.Builder()
     .forBrowser('firefox')
-    .setFirefoxOptions(new firefox.Options().setBinary(binary))
+    .setFirefoxOptions(options)
     .build();
-
 
 driver.get('https://www.google.com');
 driver.findElement(By.name('q')).sendKeys('webdriver');
