@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/mdn/headless-examples#readme",
   "dependencies": {
-    "selenium-webdriver": "^3.5.0"
+    "selenium-webdriver": "^3.6.0"
   }
 }
